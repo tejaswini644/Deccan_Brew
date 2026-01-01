@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    border-bottom: 1px solid grey;
+
+}
+.hero-content {
+    z-index: 5;
+}
+.carousel-item .btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+.nav-link{
+    border: 2px solid grey !important;
+    margin: 10px;
+    text-align: center;
+    padding: 8px 25px !important;
+    border-radius: 5px !important;
+    Background: black;
+    color: white;
+
+}
+.nav-link:hover{
+    background-color:white !important;
+    color: #513629;
+}
+
+.navbar-brand{font-size:2rem}
+
+@media (min-width:992px){
+  .navbar-brand{font-size:2.4rem}
+}
+
+.carousel-item video {
+    height: 100vh;
+    object-fit: cover;
+}
+
+body{
+    margin: 0%;
+    background-color: black;
+    color: white;
+}
+.card {
+    border: 2px solid grey;
+}
+
+.card-footer .btn {
+     border: 1px solid grey!important;
+}
+.item{
+   border: 1px solid grey;
+
+}
+/* Make Owl Carousel testimonial cards equal height */
+.owl-carousel .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.owl-carousel .item p{
+    flex: 1 1 auto;
+    margin-bottom: 1rem;
+}
+
+/* Ensure the owl stage stretches items */
+.owl-stage-outer, .owl-stage{
+    align-items: stretch;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+footer {
+    border-top: 1px solid gray;
+    background-color: #1f2529;
+  }
+  
+.btn-brown {
+    background-color: #5c3d2e;
+    color: white;
+    border: 2px solid #5c3d2e;
+}
+
+.btn-brown:hover {
+    background-color: #40261a;
+    border-color: #40281b;
+}
+
+.btn-submit {
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+}
+
+.btn-submit:hover {
+    background-color: black;
+    border-color: gray;
+}
+
+.brew-card {
+    border: 1px solid #40281b;
+    border-radius: 18px;
+    padding: 30px 20px;
+    background: #000;
+    transition: 0.3s ease;
+  }
+  
+  .brew-card:hover {
+    transform: translateY(-8px);
+    border-color: white;
+  }
+  
+  .brew-card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .brew-card p {
+   
+    color: white;
+  }
+
+  .item {
+    border: 1px solid gray;
+  }
+  

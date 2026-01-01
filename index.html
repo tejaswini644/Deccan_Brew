@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid sticky-top bg-black text-white">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <strong class="text-white">Deccan<span class="text-brown">Brew</span> <i class="bi bi-cup-hot-fill text-brown"></i></strong>
+                </a>
+                <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link fw-bold">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link fw-bold">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#Features" class="nav-link fw-bold">Features</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#Benfits" class="nav-link fw-bold">Benfits</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#Testimonial" class="nav-link fw-bold">Testimonial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid p-0">
+    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="w-100" autoplay muted loop playsinline>
+                    <source src="img/video-bn.mp4" type="video/mp4">
+                </video>
+                <div class="hero-content position-absolute top-50 start-50 translate-middle text-center text-white">
+                    <h1 class="fw-bold display-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Discover the Perfect Brew</h1>
+                    <p class="lead" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Premium coffee crafted for ultimate flavor and aroma</p>
+                    <a href="#Features" class="btn" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" >Explore More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+    <section class="container p-5" id="about">
+        <div class="row">
+            <div class="col-lg-8" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <h2>Deccan Brew – Premium Arabica Coffee (Classic Roast)</h2>
+                <p>Deccan Brew is a premium Telangana-inspired coffee brand crafted to bring the authentic taste of 
+                     South Indian Arabica to every home. Our journey began with a simple idea — to create a coffee that is smooth, aromatic, and made with genuine care,
+                    delivering café-quality flavor without any artificial additives.
+                </p>
+                <p>Every pack of Deccan Brew is made from handpicked Arabica beans grown in high-altitude plantations. 
+                   These beans are carefully roasted in small batches to retain their natural sweetness, chocolatey notes, 
+                   and rich aroma. The result is a clean, balanced cup that feels fresh, comforting, and full of character.
+                </p>
+                <p>We believe coffee is more than a drink — it is an experience. Whether you’re starting your morning, working late, 
+                 or taking a quiet break, Deccan Brew is crafted to elevate every moment. Our Classic Roast is designed to be versatile,
+                 making it perfect for French press, filter coffee, moka pot, drip machine, or even cold brew.
+               </p>
+               <p>At Deccan Brew, our mission is to offer a premium coffee that feels close to home — made with purity, honesty, 
+                 and the true spirit of the Deccan region. With every sip, we aim to celebrate the culture, warmth, and flavors that define South India’s
+                 rich coffee heritage.
+               </p>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <img src="assets/about-removebg-preview.png" class="w-100" alt="">
+        </div>
+    </div>
+    </section>
+
+
+    <!-----Booking Modal Starts Here-->
+    <div class="modal fade" id="arabicaModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content  bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">100% Arabica Beans</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Arabica is the highest-quality coffee bean variety grown in South India’s high-altitude estates.It naturally offers a smoother, sweeter flavor compared to regular Robusta.
+                        The beans are hand-picked for ripeness to ensure purity and consistency.
+                        Every batch gives a refined taste with gentle acidity and a premium aroma.
+                    </p>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----rich Beans--->
+    <div class="modal fade" id="aromaModal"  data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content  bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rich Deccan Aroma</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our beans carry the signature fragrance of the Deccan region’s fertile soil.
+                       Roasted carefully to highlight deep notes of chocolate, caramel, and warm spice.
+                       Each cup delivers a comforting aroma that fills your senses instantly.
+                       It’s bold yet smooth — the perfect balance for daily coffee lovers.
+                    </p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!---Balanced flavor-->
+     <div class="modal fade" id="flavorModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Smooth & Balanced Flavor</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Crafted to be gentle on the palate with low bitterness and clean finish.
+                       The flavor profile is rounded — neither too strong nor too mild.
+                        Ideal for those who love a smooth, everyday coffee experience.
+                        Every sip feels balanced, making it enjoyable from first sip to last.
+                    </p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!--slow roasted-->
+    <div class="modal fade" id="slowRoastModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Slow-Roasted Freshness</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our roasting process uses small batches to maintain natural oils and flavor.
+                       Slow roasting brings out deeper, richer notes without burning the beans.
+                       This ensures consistent aroma and taste in every cup.
+                       It guarantees freshness you can smell and flavour you can truly feel.
+                    </p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!--pure coffe-->
+    <div class="modal fade" id="pureModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">No Preservatives</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>We don’t use chemicals, artificial flavors, or preservatives of any kind.
+                       Every pack contains only pure, freshly roasted coffee beans.
+                       This keeps the coffee natural, healthy, and full of real flavor.
+                       What you taste is real coffee — nothing else added.
+                    </p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!--brew it your way-->
+    <div class="modal fade" id="brewModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title">Brew It Your Way</h5>
+                    <button class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our grind works with almost all popular brewing methods.
+                       Whether you prefer filter, French press, drip, moka pot, pour-over, or cold brew — it fits perfectly.
+                       The beans hold flavor well across hot or cold extractions.
+                       You get the same rich experience, no matter how you brew it.
+                    </p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!---Modal Ends Here-->
+    <section class="container-fluid bg-body-black p-5 text-center text-white" id="Features">
+        <div class="container">
+            <h2>What Makes Our Coffee Special</h2>
+            <p>Crafted with care from premium beans to final brew, every sip tells a story.</p>
+            <div class="row d-flex align-items-stretch">
+                <div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/arabica_handpick.jpg" class="w-100 mb-1" alt="">
+                            <h5>100% Arabica Beans</h5>
+                            <p>Handpicked from South Indian plantations.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#arabicaModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/rich_beans.jpg" class="w-100 mb-1" alt="">
+                            <h5>Rich Deccan Aroma</h5>
+                            <p>Fresh-roasted with chocolatey notes.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#aromaModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/roast.jpg" class="w-100 mb-1" alt="">
+                            <h5>Slow-Roasted Freshness</h5>
+                            <p>Small-batch roasted for deep aroma and sweetness.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#slowRoastModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/balanced_flavor.jpg" class="w-100 mb-1" alt="">
+                            <h5>Smooth & Balanced Flavor</h5>
+                            <p>Low bitterness and a clean, well-rounded finish.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#flavorModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3"data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/purecoffe.jpg" class="w-100 mb-1" alt="">
+                            <h5>No Preservatives</h5>
+                            <p>Zero additives just pure, premium coffee.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#pureModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500">
+                    <div class="card shadow-sm rounded bg-black text-white">
+                        <div class="card-body p-0">
+                            <img src="assets/filtering_coffe.jpg" class="w-100 mb-1" alt="">
+                            <h5>Brew It Your Way</h5>
+                            <p>All brew methods filter, French press & drip </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-brown w-100" data-bs-target="#brewModal" data-bs-toggle="modal">Know more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!---benfits-->
+    <section id="Benfits" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 mt-0" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">The Deccan Brew Difference</h2>
+
+        <!-- Block 1 -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <img src="img/1-coffe-flavour.jpg" class="img-fluid rounded shadow" alt="Coffee Image 1">
+            </div>
+            <div class="col-md-6 ps-md-5 mt-4 mt-md-0" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <h1 class="display-5 fw-bold text-brown">01</h1>
+                <h3 class="fw-bold">Amazing Coffee Flavour</h3>
+                <p class="mt-3">
+                    Crafted from premium South Indian Arabica beans, our coffee delivers a rich, smooth, 
+                    and aromatic flavour that instantly feels café-style. Every sip gives depth, warmth, 
+                    and a naturally sweet finish.
+                    Enjoy a cup that’s rich, aromatic, and naturally smooth—crafted from carefully selected beans roasted in small batches.
+                    Each sip brings a balanced depth with subtle notes of chocolate and fruit, making it perfect for any brew method.
+                    Our roasting process preserves the bean’s natural sweetness while boosting its aroma and flavour clarity. Whether you prefer strong, mild, 
+                    or creamy brews, this blend adapts beautifully. It’s the kind of flavour that stays with you long after the cup is finished.
+                </p>
+            </div>
+        </div>
+
+        <!-- Block 2-->
+        <div class="row align-items-center mb-5 flex-md-row-reverse">
+            <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <img src="img/2-health-benefits.jpg" class="img-fluid rounded shadow" alt="Coffee Image 2">
+            </div>
+            <div class="col-md-6 pe-md-5 mt-4 mt-md-0" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <h1 class="display-5 fw-bold text-brown">02</h1>
+                <h3 class="fw-bold">Surprising Health Benefits</h3>
+                <p class="mt-3">
+                    Our coffee is packed with natural antioxidants that help boost energy, improve focus, and support overall wellness. 
+                    Because it’s made from high-quality Arabica beans, it’s gentler on the stomach and easier to digest than most commercial blends. 
+                    Regular consumption may improve mood, metabolism, and even protect against oxidative stress. You get all the benefits without any added chemicals or bitterness.
+                    It’s a wholesome, feel-good cup that fuels both mind and body.
+                    Packed with natural antioxidants, our coffee supports metabolism, boosts energy, 
+                    and helps improve focus. A clean, chemical-free cup that’s smooth and gentle on the stomach.
+                </p>
+            </div>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="row align-items-center mb-3"data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <div class="col-md-6">
+                <img src="img/3-essential-nutrients.jpg" class="img-fluid rounded shadow" alt="Coffee Image 3">
+            </div>
+            <div class="col-md-6 ps-md-5 mt-4 mt-md-0"data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                <h1 class="display-5 fw-bold text-brown">03</h1>
+                <h3 class="fw-bold">Essential Nutrients</h3>
+                <p class="mt-3" >
+                    Every cup carries natural vitamins, minerals, and coffee compounds that support 
+                    overall wellness. A pure, wholesome beverage that tastes great and feels good.
+                    Each cup delivers a blend of essential vitamins and minerals naturally present in premium coffee beans. From magnesium and potassium to antioxidant-rich compounds,
+                    it supports mental alertness and steady energy throughout the day. The clean roast ensures the nutrients remain intact without introducing harsh flavours.
+                    It’s a pure, simple boost to your daily routine. With every brew, you enjoy more than taste—you enjoy nourishment that fits effortlessly into your lifestyle.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .text-brown {
+        color: #5c3d2e; /* Coffee brown */
+    }
+</style>
+
+<!--steps--->
+<section id="brewing" class="py-5 bg-black text-white">
+    <div class="container">
+  
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Brewing Guide</h2>
+        <p class="text-white" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Simple steps to brew the perfect cup</p>
+      </div>
+  
+      <div class="row g-4 text-center">
+  
+        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+          <div class="brew-card h-100">
+            <div class="icon">☕</div>
+            <h5>Choose</h5>
+            <p>Use freshly roasted Arabica coffee.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+          <div class="brew-card h-100">
+            <div class="icon">⚖️</div>
+            <h5>Measure</h5>
+            <p>1–2 tbsp coffee per 200ml water.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+          <div class="brew-card h-100">
+            <div class="icon">🔥</div>
+            <h5>Brew</h5>
+            <p>Heat water & brew slowly for rich flavor.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+          <div class="brew-card h-100">
+            <div class="icon">😊</div>
+            <h5>Enjoy</h5>
+            <p>Serve fresh and enjoy the aroma.</p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+<!--Testmonial-->
+<section class="py-5 bg-body-black p-5 text-center " id="Testimonial">
+  <div class="container">
+    <h2 class="text-center mb-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Testimonials</h2>
+
+    <div class="owl-carousel owl-theme">
+
+      <div class="item p-4 bg-black text-white shadow-sm rounded" >
+        <p>“Deccan Brew has completely changed my morning routine.
+             The aroma fills the entire kitchen the moment it starts brewing.
+             I love how smooth and naturally sweet the coffee tastes.
+             There’s no bitterness at all — just a clean, rich flavor.
+             It genuinely feels like café-quality coffee at home.”</p>
+        <h6 class="mt-3 mb-0 fw-bold text-center"> <i class="fa-solid fa-user"></i> — Priya</h6>
+      </div>
+
+      <div class="item p-4 bg-black text-white shadow-sm rounded">
+        <p>“I tried Deccan Brew for the first time last week, and I’m impressed.
+            The coffee has a deep, warm aroma that instantly wakes me up.
+            What I love most is the perfectly balanced flavor profile.
+            It’s strong enough to energize me but still incredibly smooth.
+            This is easily one of the best premium coffees.”</p>
+        <h6 class="mt-3 mb-0 fw-bold text-center"> <i class="fa-solid fa-user"></i> — Arjun</h6>
+      </div>
+
+      <div class="item p-4 bg-black text-white shadow-sm rounded">
+        <p>“I experimented with different brewing methods, and every cup tasted amazing.
+            With a French press, the flavor felt bold and rich.
+            With a filter, it was smooth and aromatic.
+            The freshness is noticeable in every sip.
+            I’ve already recommended Deccan Brew to all my friends!
+            I like café-quality coffee.”</p>
+        <h6 class="mt-3 mb-0 fw-bold text-center"> <i class="fa-solid fa-user"></i> — Meghana</h6>
+      </div>
+
+      <div class="item p-4 bg-black text-white shadow-sm rounded">
+        <p>“Deccan Brew delivers a truly premium experience.
+            The aroma hits immediately and feels calming yet energizing.
+            The texture is silky, and the flavor is remarkably clean.
+            I enjoy how it has no harshness or acidic aftertaste.
+            It’s now my everyday coffee — I won’t switch to anything else.”</p>
+        <h6 class="mt-3 mb-0 fw-bold text-center"> <i class="fa-solid fa-user"></i> — Rahul</h6>
+      </div>
+    </div>
+  </div>
+</section>
+<!--form-->
+    <section class="container p-5">
+        <div class="col-lg-6 p-5 pt-0 shadow mx-auto text-center" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <h2 class="mb-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">Contact Us</h2>
+            <form name= "contact" action ="submit.html" onsubmit="return validate()">
+                <input type ="text" name="username" class="form-control mb-3" placeholder="Enter Name">
+                <p id="nameError"></p>
+                <div class="row">
+                    <div class="col-3">
+                        <select name="countryCode" class="form-select">
+                            <option value="10">+91</option>
+                            <option value ="9">+63</option>
+                            <option value ="8">+41</option>
+                            <option value ="7">+86</option>
+                        </select>
+                    </div>
+                    <div class="col-9">
+                         <input type ="text" name="mobile" class="form-control mb-3" placeholder="Mobile Number">
+                    </div>
+                </div>
+                <p id="mobileError"></p>
+                <input type = "text" name="email" placeholder="Email Address" class="mb-3 form-control">
+                <p id="emailError"></p>
+                <input type ="Submit" class= "btn btn-submit btn-ms mb-3 px-5 fw-semibold">
+            </form>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+
+</section>
+<footer class="bg-dark text-light pt-5">
+    <div class="container">
+      <div class="row">
+  
+        <!-- Brand -->
+        <div class="col-md-4 mb-4 text-center">
+          <h4 class="fw-bold">Deccan Brew</h4>
+          <p class="text-light">
+             Crafted from premium Arabica beans, Deccan Brew 
+             delivers a smooth,
+             rich coffee experience inspired by South India. 
+          </p>
+          <p>☕ 100% Arabica Beans</p><p>Smooth & Balanced Flavor</p> <p>🌱 Freshly Roasted</p> <p>🇮🇳 Made in India</p>
+          
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4 text-center">
+          <h5 class="fw-semibold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#Home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#Features" class="footer-link">Features</a></li>
+            <li><a href="#Benfits" class="footer-link">Benfits</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Refund Policy</li>
+          </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div class="col-md-4 mb-4 text-center">
+          <h5 class="fw-semibold">Contact Us</h5>
+          <p class="mb-1">📍 Telangana, India</p>
+          <p class="mb-1">📧 support@deccanbrew.com</p>
+          <p class="mb-1">📞 +91 9789654320</p>
+          <p class="mb-1">🕒 Mon – Sat : 9 AM – 7 PM </p>
+
+        </div>
+      </div>
+  
+      <hr class="border-secondary">
+  
+      <div class="text-center pb-3">
+        <small class="text-white">
+          © 2025 Deccan Brew! All rights reserved.
+        </small>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+     AOS.init({
+       offset: 0,
+       once: true
+     });
+  </script>
+    <script src="jquery-3.7.1.min.js"></script> 
+    <script src="plugins/owl.carousel.min.js"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+</body>
+</html>
