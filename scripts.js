@@ -12,7 +12,7 @@ function validate() {
     let emailStatus = false;
 
     //Regular Expression
-    const alphaExp = /^[a-zA-Z]+$/;
+    const alphaExp = /^[a-z A-Z]+$/;
     const numberExp = /^[0-9]+$/;
     const emailExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
